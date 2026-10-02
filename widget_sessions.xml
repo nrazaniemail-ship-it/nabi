@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widgetRoot" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:gravity="center" android:background="#0B0E11">
+<TextView android:id="@+id/widgetTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NAMELLO · SESSIONS" android:textSize="11sp" android:textStyle="bold" android:textColor="#D4A64A"/>
+<TextView android:id="@+id/widgetClock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="--:--:-- NY" android:textSize="20sp" android:fontFamily="monospace" android:textColor="#E8EAED"/>
+<TextView android:id="@+id/widgetSessions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Sydney · Tokyo · London · New York" android:textSize="11sp" android:lineSpacingExtra="4dp" android:gravity="center" android:textColor="#E8EAED"/>
+<TextView android:id="@+id/widgetUpdated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="Tap to open Namello" android:textSize="9sp" android:textColor="#8B93A1"/>
+</LinearLayout>
